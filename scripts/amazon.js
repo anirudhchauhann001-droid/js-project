@@ -75,7 +75,7 @@ products.forEach((product) =>{
             </div>
 
             <button class="add-to-cart-button button-primary js-add-to-cart"
-            data-product-Id="${product.Id}">
+            data-product-Id="${product.id}">
                 Add to Cart
             </button>
         </div>`
@@ -114,6 +114,8 @@ document.querySelectorAll('.js-add-to-cart')
             })
 
             document.querySelector('.js-cart-quantity')
-                .innerHTML = cartQuantity;            
+                .innerHTML = cartQuantity; 
+                
+            console.log(cart);
         });
     });
