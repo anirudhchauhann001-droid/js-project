@@ -16,7 +16,7 @@ export function renderOrderSummary(){
 
         const deliveryOptionId = cartItem.deliveryOptionId;
 
-    const deliveryOption = cartItem.deliveryOptionId;
+        const deliveryOption = cartItem.deliveryOptionId;
 
         const today = dayjs();
         const deliveryDate = today.add(
